@@ -2,6 +2,7 @@
 title: "Topic Modeling in NLP: Comparing LDA vs NMF with Python"
 date: 2026-09-15T20:50:00+01:00
 draft: false
+description: "A practical comparison of LDA vs NMF topic modeling algorithms in NLP using Python and Scikit-learn on clinical trial data."
 tags: ["Python", "NLP", "Machine Learning", "Data Science"]
 categories: ["Artificial Intelligence"]
 cover:
