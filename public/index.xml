@@ -22,5 +22,14 @@
       <guid>http://localhost:1313/post/topic-modeling-lda-vsnmf/</guid>
       <description>A practical comparison of LDA vs NMF topic modeling algorithms in NLP using Python and Scikit-learn on clinical trial data.</description>
     </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Welcome to &lt;strong&gt;Ecomscript AI&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;I am &lt;strong&gt;Kalana Ravishanka&lt;/strong&gt;, a Software Engineer and Artificial Intelligence postgraduate at the University of Salford. With a robust foundation in Computer Science from the University of Colombo, I specialize in software architecture, enterprise integrations, and data science.&lt;/p&gt;
+&lt;p&gt;Throughout my career, I have worked as a Software Engineer and a Middleware Consultant for enterprise teams, including the Michelin Group and X-Venture Global Solutions. My industry experience revolves around building scalable microservices, event-driven architectures with Kafka, and modern web applications using Java, Spring Boot, and Angular.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
