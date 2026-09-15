@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Artificial Intelligence on Ecomscript AI</title>
-    <link>http://localhost:1313/categories/artificial-intelligence/</link>
-    <description>Recent content in Artificial Intelligence on Ecomscript AI</description>
+    <title>E-Commerce on Ecomscript AI</title>
+    <link>http://localhost:1313/tags/e-commerce/</link>
+    <description>Recent content in E-Commerce on Ecomscript AI</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Sep 2026 23:30:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/e-commerce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a Production-Ready RAG Pipeline for E-commerce Customer Support</title>
       <link>http://localhost:1313/post/ecommerce-rag-pipeline-architecture/</link>
       <pubDate>Tue, 15 Sep 2026 23:30:00 +0100</pubDate>
       <guid>http://localhost:1313/post/ecommerce-rag-pipeline-architecture/</guid>
       <description>A deep dive into architecting a Retrieval-Augmented Generation (RAG) pipeline for e-commerce. Learn how to solve latency, handle real-time inventory, and prevent AI hallucinations with Hybrid Search.</description>
-    </item>
-    <item>
-      <title>Topic Modeling in NLP: Comparing LDA vs NMF with Python</title>
-      <link>http://localhost:1313/post/topic-modeling-lda-vsnmf/</link>
-      <pubDate>Tue, 15 Sep 2026 20:50:00 +0100</pubDate>
-      <guid>http://localhost:1313/post/topic-modeling-lda-vsnmf/</guid>
-      <description>A practical comparison of LDA vs NMF topic modeling algorithms in NLP using Python and Scikit-learn on clinical trial data.</description>
     </item>
   </channel>
 </rss>

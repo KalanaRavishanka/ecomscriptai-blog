@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en" dir="auto" data-theme="dark">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,40 +28,9 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -163,6 +132,22 @@
     Posts
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Building a Production-Ready RAG Pipeline for E-commerce Customer Support
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Customer support in the e-commerce industry is highly dynamic. Customers demand instant, accurate answers about shipping policies, complex product specifications, and, most importantly, real-time inventory. While traditional Large Language Models (LLMs) are incredibly powerful at understanding natural language, they suffer from two major flaws in enterprise environments: they hallucinate, and they lack access to your proprietary, real-time business data.
+The modern solution to this is a Retrieval-Augmented Generation (RAG) pipeline. However, building a RAG system for an e-commerce platform goes far beyond the basic “chat with your PDF” tutorials. In a production environment, you must handle exact-match queries (like specific SKU numbers) and real-time stock validations.
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-09-15 23:30:00 +0100 BST'>September 15, 2026</span>&nbsp;·&nbsp;<span>5 min</span></footer>
+  <a class="entry-link" aria-label="post link to Building a Production-Ready RAG Pipeline for E-commerce Customer Support" href="http://localhost:1313/post/ecommerce-rag-pipeline-architecture/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
