@@ -1,0 +1,12 @@
+{{- define "main" }}
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin: 10vh auto; gap: 20px; max-width: 600px;">
+  <h1 style="font-size: 100px; line-height: 1; margin: 0;">🤖 404</h1>
+  <h2 style="font-size: 36px; font-weight: bold; margin: 0;">Vector Not Found</h2>
+  <p style="font-size: 18px; color: var(--secondary); margin: 0; line-height: 1.5;">
+    Oops! It looks like this URL got lost in the vector space, or our AI hallucinated this page.
+  </p>
+  <a href="{{ "" | absLangURL }}" style="background-color: var(--primary); color: var(--theme); padding: 14px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; transition: 0.3s; margin-top: 10px;">
+    Return to Homepage
+  </a>
+</div>
+{{- end }}
