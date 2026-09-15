@@ -1,4 +1,32 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = "PaperMod"
+baseURL = 'https://ecomscriptai.com/'
+languageCode = 'en-us'
+title = 'Ecomscript AI'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    defaultTheme = 'auto' # Userge phone eke widiyata auto dark/light wenawa
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true # Code blocks copy karanna podi button ekak enawa
+
+# Uda menu eka hadaganna kramaya
+[[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
