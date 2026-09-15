@@ -6,17 +6,21 @@
     <description>Recent content on Ecomscript AI</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 20:50:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 22:30:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating Facebook Reels Downloads with Python and yt-dlp</title>
+      <link>http://localhost:1313/post/fb-reels-downloader-python/</link>
+      <pubDate>Tue, 15 Sep 2026 22:30:00 +0100</pubDate>
+      <guid>http://localhost:1313/post/fb-reels-downloader-python/</guid>
+      <description>Learn how to build a custom Python media scraper using yt-dlp to automatically download Facebook page reels with timestamped filenames.</description>
+    </item>
     <item>
       <title>Topic Modeling in NLP: Comparing LDA vs NMF with Python</title>
       <link>http://localhost:1313/post/topic-modeling-lda-vsnmf/</link>
       <pubDate>Tue, 15 Sep 2026 20:50:00 +0100</pubDate>
       <guid>http://localhost:1313/post/topic-modeling-lda-vsnmf/</guid>
-      <description>&lt;p&gt;Topic modeling is a powerful Natural Language Processing (NLP) technique used to discover hidden thematic structures in large text collections. When building text-mining pipelines, the two most prominent algorithms are &lt;strong&gt;Latent Dirichlet Allocation (LDA)&lt;/strong&gt; and &lt;strong&gt;Non-negative Matrix Factorization (NMF)&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;But which one performs better in a real-world scenario? In this technical guide, we will compare LDA and NMF side-by-side using real clinical trial data.&lt;/p&gt;
-&lt;h2 id=&#34;1-the-dataset--environment-setup&#34;&gt;1. The Dataset &amp;amp; Environment Setup&lt;/h2&gt;
-&lt;p&gt;To make this comparison practical, we are using a dataset of 559 clinical trial records fetched from ClinicalTrials.gov.&lt;/p&gt;</description>
+      <description>A practical comparison of LDA vs NMF topic modeling algorithms in NLP using Python and Scikit-learn on clinical trial data.</description>
     </item>
   </channel>
 </rss>

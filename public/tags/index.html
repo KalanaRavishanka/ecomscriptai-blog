@@ -65,7 +65,21 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="http://localhost:1313/tags/">
+</script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3NT95QMZC"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-V3NT95QMZC');
+        }
+      </script><meta property="og:url" content="http://localhost:1313/tags/">
   <meta property="og:site_name" content="Ecomscript AI">
   <meta property="og:title" content="Tags">
   <meta property="og:locale" content="en_us">
@@ -129,6 +143,9 @@
 
 <ul class="terms-tags">
             <li>
+                <a href="http://localhost:1313/tags/automation/">Automation <sup><strong><sup>1</sup></strong></sup> </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/tags/data-science/">Data Science <sup><strong><sup>1</sup></strong></sup> </a>
             </li>
             <li>
@@ -138,7 +155,13 @@
                 <a href="http://localhost:1313/tags/nlp/">NLP <sup><strong><sup>1</sup></strong></sup> </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/python/">Python <sup><strong><sup>1</sup></strong></sup> </a>
+                <a href="http://localhost:1313/tags/python/">Python <sup><strong><sup>2</sup></strong></sup> </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/web-scraping/">Web Scraping <sup><strong><sup>1</sup></strong></sup> </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/yt-dlp/">Yt-Dlp <sup><strong><sup>1</sup></strong></sup> </a>
             </li>
 </ul>
     </main>

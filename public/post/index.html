@@ -65,7 +65,21 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="http://localhost:1313/post/">
+</script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3NT95QMZC"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-V3NT95QMZC');
+        }
+      </script><meta property="og:url" content="http://localhost:1313/post/">
   <meta property="og:site_name" content="Ecomscript AI">
   <meta property="og:title" content="Posts">
   <meta property="og:locale" content="en_us">
@@ -149,6 +163,23 @@
     Posts
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Automating Facebook Reels Downloads with Python and yt-dlp
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Managing short-form video content across multiple platforms can be time-consuming. If you run a Facebook page and want to back up your reels or repurpose them for other platforms, manually downloading them is not efficient.
+In this tutorial, we will build a custom Python media scraper using the powerful yt-dlp library to automatically download Facebook reels directly to a local directory and save them with organized, timestamped filenames.
+Prerequisites Before writing the script, you need to set up your environment. Make sure you have Python installed, and then install yt-dlp via your terminal:
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-09-15 22:30:00 +0100 BST'>September 15, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to Automating Facebook Reels Downloads with Python and yt-dlp" href="http://localhost:1313/post/fb-reels-downloader-python/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
