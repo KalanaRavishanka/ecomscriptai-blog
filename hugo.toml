@@ -30,3 +30,7 @@ theme = 'PaperMod'
     name = "About"
     url = "/about/"
     weight = 30
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-V3NT95QMZC"
