@@ -80,18 +80,18 @@ Execution time is just one factor. To truly understand which model performed bet
 
 ### Topic Coherence (Cv)
 Coherence measures how logically connected the top words in a generated topic are. A higher score means the topic makes more human sense.
-* **LDA Coherence:** $C_v = 0.5203$
-* **NMF Coherence:** $C_v = 0.3101$
+* **LDA Coherence:** C_v = 0.5203
+* **NMF Coherence:** C_v = 0.3101
 
 In our test, LDA produced significantly more coherent, readable topics compared to NMF.
 
 ### Topic Diversity
-Diversity measures how unique the topics are from one another. A score closer to $1.0$ means less overlap between topics.
-* **LDA Diversity:** $0.950$
-* **NMF Diversity:** $0.867$
+Diversity measures how unique the topics are from one another. A score closer to 1.0 means less overlap between topics.
+* **LDA Diversity:** 0.950
+* **NMF Diversity:** 0.867
 
 Once again, LDA provided a much broader and more distinct variety of topics from the dataset.
 
 ## Conclusion
 
-While NMF is an exceptionally fast algorithm due to its linear algebra foundation (`init='nndsvda'`), it struggled to extract deeply coherent themes from this specific clinical dataset. **Latent Dirichlet Allocation (LDA) emerged as the clear winner** in terms of both Topic Coherence ($0.5203$) and Diversity ($0.950$), making it the optimal choice for analyzing medical text records where context and term relationships are crucial.
+While NMF is an exceptionally fast algorithm due to its linear algebra foundation (`init='nndsvda'`), it struggled to extract deeply coherent themes from this specific clinical dataset. **Latent Dirichlet Allocation (LDA) emerged as the clear winner** in terms of both Topic Coherence (0.5203) and Diversity (0.950), making it the optimal choice for analyzing medical text records where context and term relationships are crucial.
