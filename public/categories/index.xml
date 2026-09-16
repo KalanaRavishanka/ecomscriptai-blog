@@ -6,13 +6,20 @@
     <description>Recent content in Categories on Ecomscript AI</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2026 23:30:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 12:05:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artificial Intelligence</title>
       <link>http://localhost:1313/categories/artificial-intelligence/</link>
-      <pubDate>Tue, 15 Sep 2026 23:30:00 +0100</pubDate>
+      <pubDate>Wed, 16 Sep 2026 12:05:00 +0100</pubDate>
       <guid>http://localhost:1313/categories/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System Architecture</title>
+      <link>http://localhost:1313/categories/system-architecture/</link>
+      <pubDate>Wed, 16 Sep 2026 12:05:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/system-architecture/</guid>
       <description></description>
     </item>
     <item>
@@ -20,6 +27,13 @@
       <link>http://localhost:1313/categories/e-commerce-automation/</link>
       <pubDate>Tue, 15 Sep 2026 22:30:00 +0100</pubDate>
       <guid>http://localhost:1313/categories/e-commerce-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:1313/categories/data-science/</link>
+      <pubDate>Tue, 15 Sep 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/categories/data-science/</guid>
       <description></description>
     </item>
   </channel>
