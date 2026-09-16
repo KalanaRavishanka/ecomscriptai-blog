@@ -1,6 +1,6 @@
 ---
 title: "Data Ingestion for E-commerce RAG: Vectorizing Product Catalogs with Pinecone"
-date: 2026-09-16T12:09:27+01:00
+date: 2026-09-15T10:00:00+01:00
 description: "Learn how to process E-commerce catalogs, generate OpenAI embeddings, and safely batch-upload them into Pinecone for Hybrid Search RAG pipelines."
 draft: false
 tags: ["RAG", "Data Engineering", "Pinecone", "Python", "Vector Database"]
