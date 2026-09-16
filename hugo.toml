@@ -31,6 +31,13 @@ theme = 'PaperMod'
     url = "/about/"
     weight = 30
 
+[[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/kalanaravishanka/"
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/kalanaravishanka"
+
 [services]
   [services.googleAnalytics]
     ID = "G-V3NT95QMZC"
